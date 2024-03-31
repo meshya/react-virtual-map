@@ -14,6 +14,7 @@ interface OhMyMapProps {
 interface MapObjProps{
     x:number,
     y:number,
+    children:react.ReactNode,
     className?:string
 }
 
