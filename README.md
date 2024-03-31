@@ -9,6 +9,11 @@ I can't explain watch video.
 
 https://github.com/meshya/react-virtual-map/assets/59795638/71d27028-55b6-484a-a293-0a8ca7cb45db
 
+## Installation
+
+```
+npm i react-virtual-map
+```
 
 ## Code
 
