@@ -1,5 +1,5 @@
 import './App.css';
-import { OhMyMap, MapObj } from './react-virtual-map';
+import { MapObj, OhMyMap } from './react-virtual-map';
 
 function Circle(){
     return (
@@ -23,22 +23,22 @@ function App() {
             height:"100vh",
         }}
     >
-        <OhMyMap 
-        height={1000}
-        width={1000}
-        coordinateCenter="bl"
+        <OhMyMap
+            width={500}
+            height={500}
+            coordinateCenter='br'
         >
             <MapObj
-                x={10}
-                y={10}
+                x={0}
+                y={100}
             >
-                <Circle />
+                Bye
             </MapObj>
             <MapObj
-                x={100}
-                y={10}
+                x={300}
+                y={20}
             >
-                <Circle/>
+                Bye .
             </MapObj>
         </OhMyMap>
     </div>

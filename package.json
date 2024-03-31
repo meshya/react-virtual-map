@@ -1,14 +1,17 @@
 {
   "name": "react-virtual-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
-    "react": "*",
-    "react-dom": "*"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5"
   },
   "main": "src/react-virtual-map/index.js",
   "files": [
-    "src/react-virtual-map/index.js"
+    "src/react-virtual-map/index.js",
+    "src/react-virtual-map/index.d.ts"
   ],
   "scripts": {
     "start": "react-scripts start"
@@ -43,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@swc/core": "^1.4.0",
+    "tsup": "^8.0.2"
   }
 }
